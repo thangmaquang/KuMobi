@@ -39,7 +39,7 @@ public class SplashActivity extends BaseActivity {
 
     private void setUpAnimation(){
         final ImageView textAnimation =  findViewById(R.id.imgLogo);
-        ValueAnimator valueAnimator = ValueAnimator.ofFloat(0f, 1200f);
+        ValueAnimator valueAnimator = ValueAnimator.ofFloat(0f, 900f);
         valueAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
         // Nó sẽ tăng tốc độ ở lần đầu và sau đó giảm dần
 

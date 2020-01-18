@@ -66,7 +66,7 @@ public class MainSecondActivity extends BaseActivity {
             public void onClick(View v) {
                 if (isOnline){
                     Intent intent = new Intent(MainSecondActivity.this, WebViewActivity.class);
-                    intent.putExtra("home", "https://ff3185.ku11.net");
+                    intent.putExtra("home", "https://kumobi.app");
                     transitionTo(intent);
                 }else {
                     openDialog(MainSecondActivity.this);
@@ -83,7 +83,7 @@ public class MainSecondActivity extends BaseActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        loadAnimations();
+//        loadAnimations();
     }
 
 

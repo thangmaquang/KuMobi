@@ -82,7 +82,7 @@ public class MainFirstActivity extends BaseActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        loadAnimations();
+//        loadAnimations();
     }
 
 

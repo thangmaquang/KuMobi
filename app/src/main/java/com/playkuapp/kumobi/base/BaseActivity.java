@@ -80,7 +80,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     public void transitionTo(Intent i) {
         final Pair<View, String>[] pairs = TransitionHelper.createSafeTransitionParticipants(this, true);
         ActivityOptionsCompat transitionActivityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this, pairs);
-        startActivity(i, transitionActivityOptions.toBundle());
+        startActivity(i);
     }
 
     public static void openDialog(Context context) {
